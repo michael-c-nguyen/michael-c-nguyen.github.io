@@ -20,13 +20,12 @@ export default function About() {
     return () => clearInterval(typingInterval);
   }, [text]);
 
-  return <span>{displayedText}</span>;
+  return <p>{displayedText}</p>;
 };
 
 
   return (
     <section id="about">
-      <div className="text-gray-400 bg-blue-900 body-font">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <img
             className="object-cover object-center rounded mt-4"
@@ -40,7 +39,6 @@ export default function About() {
             that enjoys building a better future using technology!" typingSpeed={44} />
           </h1>
         </div>
-      </div>
       </div>
     </section>
   );

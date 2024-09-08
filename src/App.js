@@ -12,7 +12,7 @@ import Me from "./components/Me";
 export default function App() {
   return (
     <Router>
-      <div className="text-gray-400 bg-blue-900 body-font">
+      <div className="text-white bg-blue-900 min-h-screen body-font">
         <Navbar />
         <Routes>
           <Route path="/" element={<><About /><Me /><Contact /></>} />

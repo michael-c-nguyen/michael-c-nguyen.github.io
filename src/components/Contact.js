@@ -3,6 +3,8 @@
 import React from "react";
 import linkedin from "../assets/LI-In-Bug.png";
 import github from "../assets/github-mark-white.png";
+import leetcode from "../assets/leetcode.png";
+
 
 export default function Contact() {
   return (
@@ -54,6 +56,9 @@ export default function Contact() {
               </a>
               <a href="https://www.github.com/michaelnguyen26" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub" width={40} height={40} style={{ marginLeft: '1rem' }}/>
+              </a>
+              <a href="https://leetcode.com/u/mycallwin/" target="_blank" rel="noopener noreferrer">
+                <img src={leetcode} alt="Leetcode" width={34} height={34} style={{ marginLeft: '1.2rem' }}/>
               </a>
             </div>
           </div>
