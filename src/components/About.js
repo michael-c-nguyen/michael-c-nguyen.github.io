@@ -36,7 +36,7 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-center text-center">
           <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">
             <TypingEffect className="hidden lg:inline-block" text="  Hello, my name is Michael! I am a passionate software engineer 
-            that enjoys building a better future using technology!" typingSpeed={44} />
+            that enjoys building a better future using technology! 💻" typingSpeed={44} />
           </h1>
         </div>
       </div>

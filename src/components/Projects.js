@@ -15,37 +15,51 @@ export default function Projects() {
             Languages: Python, Java, Javascript, SQL, MATLAB, and C
           </p>
           <br />
-          <p className="text-sand">
-            <b>❗ Hover to view more information and <u>some cards are clickable</u> ❗</b>
+          <p className="text-white">
+            <b><i>Hover to view more information and some cards are clickable</i></b>
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center">
           {projects.map((project) => (
             <a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
               key={project.image}
-              className="sm:w-1/2 lg:w-1/3 p-4"
+              className="h-full items-center justify-center"
             >
-              <div className="relative bg-gray-900 border-4 border-gray-800 rounded-lg overflow-hidden h-96">
-                <img
-                  alt="project_image"
-                  className="w-full h-full object-cover"
-                  src={project.image}
-                />
-                <div className="absolute inset-0 bg-gray-900 bg-opacity-80 flex flex-col justify-center items-center p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
-                  <h2 className="tracking-widest text-xs md:text-sm title-font font-medium text-green-400 mb-1 text-center">
+              <div className="relative bg-gray-900 border-4 border-gray-800 rounded-lg overflow-hidden w-full h-full">
+                {project.image.length > 1 ? (
+                  project.image.map((image, index) => (
+                    <img
+                      key={index}
+                      alt="project_image"
+                      className="w-full object-cover mb-8"
+                      src={image}
+                    />
+                  ))
+                ) : (
+                  project.image.map((image, index) => (
+                    <img
+                      key={index}
+                      alt="project_image"
+                      className= {project.class}
+                      src={image}
+                    />
+                  ))
+                )}
+                <div className="absolute inset-0 bg-gray-900 bg-opacity-80 flex flex-col p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
+                  <h2 className="tracking-widest text-xs md:text-sm title-font font-medium text-red-500 mb-1 text-center">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-sm md:text-lg font-medium text-white mb-2 text-center">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed text-xs md:text-base text-center overflow-hidden text-ellipsis">
-                    {project.description}
-                  </p>
+                  <p
+                  className="leading-relaxed text-xs md:text-base text-center overflow-auto"
+                  dangerouslySetInnerHTML={{ __html: project.description }}
+                  ></p>
                 </div>
-
               </div>
             </a>
           ))}

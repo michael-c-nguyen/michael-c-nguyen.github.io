@@ -10,11 +10,11 @@ export default function Contact() {
   return (
     <section id="contact" className="relative bg-stone-900 text-white py-10">
       <div className="container mx-auto flex flex-wrap px-5 py-10">
-        {/* Map iframe */}
-        <div className="lg:w-1/2 w-full relative">
+        {/* Map */}
+        <div className="lg:w-1/2 w-full relative overflow-hidden"style={{ height: '550px' }}>
           <iframe
             width="100%"  
-            height="400" 
+            height="100%" 
             title="map"
             className="absolute inset-0"
             style={{ filter: "opacity(0.7)" }}
@@ -26,28 +26,28 @@ export default function Contact() {
         <div className="lg:w-1/2 w-full flex flex-col items-center justify-center p-10">
           <div className="relative z-10 flex flex-col items-center text-center">
             <div className="w-full px-6 mb-4">
-              <h2 className="title-font font-semibold items-center tracking-widest text-xs">
+              <h2 className="title-font font-semibold items-center tracking-widest text-xl">
               📍
               </h2>
-              <p className="mt-1">California, USA</p>
+              <p className="mt-1 font-mono">California, USA</p>
             </div>
             <div className="w-full px-6">
-              <h2 className="title-font font-semibold items-center tracking-widest text-xs">
+              <h2 className="title-font font-semibold items-center tracking-widest text-xl">
               📧
               </h2>
-              <a href="mailto:nguyen.michael.26@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white leading-relaxed">
+              <a href="mailto:nguyen.michael.26@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white leading-relaxed font-mono">
                 nguyen.michael.26@gmail.com
               </a>
-              <h2 className="title-font font-semibold items-center tracking-widest text-xs mt-4">
+              <h2 className="title-font font-semibold items-center tracking-widest text-xl mt-4">
               📱
               </h2>
-              <p className="leading-relaxed">(949) 560-7127</p>
+              <a className="leading-relaxed font-mono" href="tel:9495607127">(949) 560-7127</a>
             </div>
           </div>
 
           {/* Connect with Me */}
           <div className="flex flex-col items-center mt-8">
-            <h2 className="text-white text-3xl mb-4 font-medium title-font text-center">
+            <h2 className="text-white text-3xl mb-4 font-medium font-mono title-font text-center">
               Connect with me!
             </h2>
             <div className="flex">

@@ -5,7 +5,6 @@ import { DocumentDownloadIcon } from "@heroicons/react/solid";
 export default function Resume() {
   return (
       <section className="text-white bg-blue-900 body-font">
-        {/* Resume Section */}
         <div className="bg-blue-900 text-center p-10 rounded-lg shadow-lg">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Resume
@@ -26,7 +25,7 @@ export default function Resume() {
             <embed
               src={`${resume}#page=1&zoom=95`}
               type="application/pdf"
-              width="50%"  // Adjust as needed
+              width="50%"
               height="1100px"
               className="rounded-lg border"
             />

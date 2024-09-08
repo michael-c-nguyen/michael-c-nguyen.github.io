@@ -5,10 +5,10 @@ export default function Me(){
     return (
       <section id="me">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-          <div className="flex flex-col w-full mb-20">
+          <div className="flex flex-col items-center justify-center w-full mb-20">
             <EmojiHappyIcon className="mx-auto inline-block w-10 mb-4" />
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            🎮: Baldur's Gate 3, Overwatch, Valorant, Stardew Valley, Genshin Impact, and Fortnite
+            <p className="font-mono lg:w-[150%] items-center justify-center leading-relaxed text-base">
+            🎮: Baldur's Gate 3, Overwatch, Valorant, Fall Guys, Stardew Valley, Genshin Impact, and Fortnite
             <br></br>
             <br></br>
             🎥: Marvel, Action/Adventure, Anime, and Sci-Fi
