@@ -1,6 +1,6 @@
-## Welcome to my portfolio!
+# Welcome to my portfolio!
 
-# Getting Started
+## Getting Started
 
 In the project directory, you can run:
 
