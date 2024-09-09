@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e96e215c.css",
+    "main.js": "/static/js/main.0a124d7a.js",
+    "static/js/453.add5b1fa.chunk.js": "/static/js/453.add5b1fa.chunk.js",
+    "static/media/restaurant-crystal-ball.png": "/static/media/restaurant-crystal-ball.92b95703ac8eea50d41d.png",
+    "static/media/earthquake2.jpg": "/static/media/earthquake2.bfb2bac08fa88b36a1be.jpg",
+    "static/media/database.jpg": "/static/media/database.1ad033b3b1404f33b388.jpg",
+    "static/media/Resume_Michael_Nguyen.pdf": "/static/media/Resume_Michael_Nguyen.55865cd4e49ddd6724c2.pdf",
+    "static/media/earthquakes.jpg": "/static/media/earthquakes.0cd41e655bbb43215c73.jpg",
+    "static/media/database-cli.jpg": "/static/media/database-cli.b221208a58d69ca3bec3.jpg",
+    "static/media/australia.jpg": "/static/media/australia.7bcac1a81940f0726e54.jpg",
+    "static/media/australia-rain.jpg": "/static/media/australia-rain.5347c63204fea2f7dc65.jpg",
+    "static/media/robot.jpg": "/static/media/robot.b24b35d126cef3395daf.jpg",
+    "static/media/tomato-2.jpg": "/static/media/tomato-2.1a633417f417ff837abd.jpg",
+    "static/media/tomatoes.jpg": "/static/media/tomatoes.12ad23b83eeb89e39fef.jpg",
+    "static/media/australia-fire.png": "/static/media/australia-fire.8d6c0ee8ac32f6233560.png",
+    "static/media/leetcode.png": "/static/media/leetcode.82d78a2b37ec54f6dce1.png",
+    "static/media/Professional_Photo.JPG": "/static/media/Professional_Photo.d2fc8e473e6afe20ec8b.JPG",
+    "index.html": "/index.html",
+    "main.e96e215c.css.map": "/static/css/main.e96e215c.css.map",
+    "main.0a124d7a.js.map": "/static/js/main.0a124d7a.js.map",
+    "453.add5b1fa.chunk.js.map": "/static/js/453.add5b1fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e96e215c.css",
+    "static/js/main.0a124d7a.js"
+  ]
+}
