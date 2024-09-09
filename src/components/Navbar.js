@@ -1,9 +1,8 @@
 import React from "react";
 
 export default function Navbar() {
-  const baseUrl = window.location.origin;  // Get the base URL of the current site
-  const projectsUrl = `${baseUrl}/projects`;  
-  const resumeUrl = `${baseUrl}/resume`;
+  const projectsUrl = `/#/projects`;  
+  const resumeUrl = `/#/resume`;
 
   return (
     <header className="bg-stone-900 md:sticky top-0 z-10">
@@ -13,7 +12,7 @@ export default function Navbar() {
             
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
-          <a href= "/" className="mr-5 hover:text-red-500">
+          <a href= "/#/" className="mr-5 hover:text-red-500">
             Home
           </a>
           <a href= {projectsUrl} className="mr-5 hover:text-red-500">
