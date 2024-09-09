@@ -32,14 +32,21 @@ export default function About() {
             alt="Michael"
             src={professionalPhoto}  
           />
-        <div></div>
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-center text-center">
           <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">
-            <TypingEffect className="hidden lg:inline-block" text="  Hello, my name is Michael! I am a passionate software engineer 
-            that enjoys building a better future using technology! 💻" typingSpeed={44} />
+            <TypingEffect className="hidden lg:inline-block" text="  Hello, my name is Michael! I am an experienced software engineer 
+            and I am passionate about building a better future using technology! 💻" typingSpeed={38} />
           </h1>
         </div>
       </div>
+      <div className=" container px-5 py-10 mx-auto text-center lg:px-40 items-center justify-center  mt-40 mb-40 font-mono leading-relaxed text-base">
+        <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">About me!</h1>
+          <p>
+              My name is Michael Nguyen and I graduated with a B.S. in Earth Systems Science and also with a Masters in Software Engineering from UC Irvine.
+              I am experienced and well versed in the domain of software engineering, backend development, and data analytics.
+              You can view my completed work by navigating to the Projects section above! Thank you for visiting!
+          </p>
+        </div>
     </section>
   );
 }

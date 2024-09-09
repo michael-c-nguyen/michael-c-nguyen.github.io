@@ -27,7 +27,7 @@ export default function Resume() {
               type="application/pdf"
               width="50%"
               height="1100px"
-              className="rounded-lg border"
+              className="container mx-auto flex md:flex-row flex-col items-center justify-center"
             />
           </div>
 
