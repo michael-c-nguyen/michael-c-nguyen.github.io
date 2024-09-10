@@ -44,7 +44,7 @@ export default function About() {
           <p>
               My name is Michael Nguyen and I graduated from UC Irvine with a B.S. in Earth Systems Science in 2020 and also with a Masters in Software Engineering in 2022.
               I am experienced and well versed in the domain of software engineering, backend development, and data analytics.
-              You can view my projects by navigating to the <a href="/#/projects"><b className="hover:text-red-500">Projects</b></a> section above! Thank you for visiting!
+              You can view my projects by navigating to the <a href="/#/projects"><b className="hover:text-red-500"><u>Projects</u></b></a> section above! Thank you for visiting!
           </p>
       </div>
     </section>
