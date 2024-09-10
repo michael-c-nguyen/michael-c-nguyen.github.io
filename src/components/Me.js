@@ -1,4 +1,3 @@
-import { EmojiHappyIcon } from "@heroicons/react/solid";
 import React from 'react';
 
 export default function Me(){
@@ -6,7 +5,7 @@ export default function Me(){
       <section id="me">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
           <div className="flex flex-col items-center justify-center w-full mb-20">
-            <EmojiHappyIcon className="mx-auto inline-block w-10 mb-4" />
+          <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">🙂</h1>
             <p className="font-mono lg:w-[150%] items-center justify-center leading-relaxed text-base">
             🎮: Baldur's Gate 3, Overwatch, Valorant, Fall Guys, Stardew Valley, Genshin Impact, and Fortnite
             <br></br>

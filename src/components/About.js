@@ -35,12 +35,12 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-center text-center">
           <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">
             <TypingEffect className="hidden lg:inline-block" text="  Welcome! I am an experienced software engineer 
-            and I am passionate about building a safe, better, and inclusive future using technology! 💻" typingSpeed={38} />
+            and I am passionate about using technology to design and build products that foster a safe, better, and inclusive future! 💻" typingSpeed={38} />
           </h1>
         </div>
       </div>
       <div className=" container px-5 py-10 mx-auto text-center lg:px-40 items-center justify-center  mt-40 mb-40 font-mono leading-relaxed text-base">
-        <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">About me!</h1>
+        <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">👋</h1>
           <p>
               My name is Michael Nguyen and I graduated from UC Irvine with a B.S. in Earth Systems Science in 2020 and also with a Masters in Software Engineering in 2022.
               I am experienced and well versed in the domain of software engineering, backend development, and data analytics.
