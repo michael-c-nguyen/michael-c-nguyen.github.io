@@ -5,7 +5,7 @@ export default function Me(){
       <section id="me">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
           <div className="flex flex-col items-center justify-center w-full mb-20">
-          <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">🙂</h1>
+          <h1 className="font-mono title-font md:text-3xl text-3xl mb-4 font-medium text-white">🙂</h1>
             <p className="font-mono lg:w-[150%] items-center justify-center leading-relaxed text-base">
             🎮: Baldur's Gate 3, Overwatch, Valorant, Genshin Impact, Fortnite, PvE, and RPG's
             <br></br>

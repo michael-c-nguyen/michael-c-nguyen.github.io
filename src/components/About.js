@@ -39,14 +39,14 @@ export default function About() {
           </h1>
         </div>
       </div>
-      <div className=" container px-5 py-10 mx-auto text-center lg:px-40 items-center justify-center  mt-40 mb-40 font-mono leading-relaxed text-base">
-        <h1 className="font-mono title-font md:text-2xl text-3xl mb-4 font-medium text-white">👋</h1>
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 items-center justify-center  mt-40 mb-40 font-mono leading-relaxed text-base">
+        <h1 className="font-mono title-font md:text-3xl text-3xl mb-4 font-medium text-white">👋</h1>
           <p>
               My name is Michael Nguyen and I graduated from UC Irvine with a B.S. in Earth Systems Science in 2020 and also with a Masters in Software Engineering in 2022.
               I am experienced and well versed in the domain of software engineering, backend development, and data analytics.
               You can view my projects by navigating to the <a href="/#/projects"><b className="hover:text-red-500">Projects</b></a> section above! Thank you for visiting!
           </p>
-        </div>
+      </div>
     </section>
   );
 }
