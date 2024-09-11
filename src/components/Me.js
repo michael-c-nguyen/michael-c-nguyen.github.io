@@ -1,20 +1,21 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function Me(){
-  // Initialize AOS
-  AOS.init({
-    startEvent: 'scroll',
-    delay: 200,
-    duration: 2500,
-    mirror: true,
-  });
+  useEffect(() => {
+    AOS.init({
+      startEvent: 'scroll',
+      delay: 500,
+      duration: 2000,
+      mirror: true,
+    });
+  }, []); 
 
   return (
     <section id="me">
-      <div data-aos="zoom-in-up" className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div data-aos="zoom-in-up"  className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col items-center justify-center w-full mb-20">
         <h1 className="font-mono title-font md:text-3xl text-3xl mb-4 font-medium text-white">🙂</h1>
           <p className="font-mono lg:w-[150%] items-center justify-center leading-relaxed text-base">
