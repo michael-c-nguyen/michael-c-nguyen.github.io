@@ -64,9 +64,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <footer className="font-mono title-font flex items-center mt-40 justify-center text-sm sm:text-lg font-medium text-white">
-      ⚡ React, Tailwind, and AOS ⚡
-      </footer>
     </section>
   );
 }
