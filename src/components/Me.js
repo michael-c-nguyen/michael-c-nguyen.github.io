@@ -7,7 +7,7 @@ export default function Me(){
   useEffect(() => {
     AOS.init({
       startEvent: 'scroll',
-      delay: 500,
+      delay: 450,
       duration: 2000,
       mirror: true,
     });
