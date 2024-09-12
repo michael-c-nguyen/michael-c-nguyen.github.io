@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6504ecc7.css",
-    "main.js": "/static/js/main.756e1f18.js",
+    "main.js": "/static/js/main.0775be5e.js",
     "static/js/453.add5b1fa.chunk.js": "/static/js/453.add5b1fa.chunk.js",
     "static/media/restaurant-crystal-ball.png": "/static/media/restaurant-crystal-ball.92b95703ac8eea50d41d.png",
     "static/media/earthquake2.jpg": "/static/media/earthquake2.bfb2bac08fa88b36a1be.jpg",
     "static/media/database.jpg": "/static/media/database.1ad033b3b1404f33b388.jpg",
-    "static/media/Resume_Michael_Nguyen.pdf": "/static/media/Resume_Michael_Nguyen.ef239b6dcafe5c9e497a.pdf",
+    "static/media/Resume_Michael_Nguyen.pdf": "/static/media/Resume_Michael_Nguyen.c3c79914bd737d615e90.pdf",
     "static/media/earthquakes.jpg": "/static/media/earthquakes.0cd41e655bbb43215c73.jpg",
     "static/media/database-cli.jpg": "/static/media/database-cli.b221208a58d69ca3bec3.jpg",
     "static/media/australia.jpg": "/static/media/australia.7bcac1a81940f0726e54.jpg",
@@ -19,11 +19,11 @@
     "static/media/Professional_Photo.JPG": "/static/media/Professional_Photo.d2fc8e473e6afe20ec8b.JPG",
     "index.html": "/index.html",
     "main.6504ecc7.css.map": "/static/css/main.6504ecc7.css.map",
-    "main.756e1f18.js.map": "/static/js/main.756e1f18.js.map",
+    "main.0775be5e.js.map": "/static/js/main.0775be5e.js.map",
     "453.add5b1fa.chunk.js.map": "/static/js/453.add5b1fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6504ecc7.css",
-    "static/js/main.756e1f18.js"
+    "static/js/main.0775be5e.js"
   ]
 }
