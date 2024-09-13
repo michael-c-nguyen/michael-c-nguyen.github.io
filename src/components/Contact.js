@@ -57,7 +57,7 @@ export default function Contact() {
               <a href="https://www.github.com/michael-c-nguyen" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub" width={40} height={40} style={{ marginLeft: '1rem' }}/>
               </a>
-              <a href="https://leetcode.com/u/mycallwin/" target="_blank" rel="noopener noreferrer">
+              <a href="https://leetcode.com/u/michael-c-nguyen/" target="_blank" rel="noopener noreferrer">
                 <img src={leetcode} alt="Leetcode" width={34} height={34} style={{ marginLeft: '1.2rem' }}/>
               </a>
             </div>
