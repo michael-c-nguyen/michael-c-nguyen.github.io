@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6504ecc7.css",
-    "main.js": "/static/js/main.5f81497d.js",
+    "main.js": "/static/js/main.ccd67d30.js",
     "static/js/453.add5b1fa.chunk.js": "/static/js/453.add5b1fa.chunk.js",
     "static/media/restaurant-crystal-ball.png": "/static/media/restaurant-crystal-ball.92b95703ac8eea50d41d.png",
     "static/media/earthquake2.jpg": "/static/media/earthquake2.bfb2bac08fa88b36a1be.jpg",
@@ -19,11 +19,11 @@
     "static/media/Professional_Photo.JPG": "/static/media/Professional_Photo.d2fc8e473e6afe20ec8b.JPG",
     "index.html": "/index.html",
     "main.6504ecc7.css.map": "/static/css/main.6504ecc7.css.map",
-    "main.5f81497d.js.map": "/static/js/main.5f81497d.js.map",
+    "main.ccd67d30.js.map": "/static/js/main.ccd67d30.js.map",
     "453.add5b1fa.chunk.js.map": "/static/js/453.add5b1fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6504ecc7.css",
-    "static/js/main.5f81497d.js"
+    "static/js/main.ccd67d30.js"
   ]
 }
