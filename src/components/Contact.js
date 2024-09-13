@@ -51,10 +51,10 @@ export default function Contact() {
               Connect with me!
             </h2>
             <div className="flex">
-              <a href="https://www.linkedin.com/in/michaelnguyen26" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/michael-c-nguyen" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin} alt="LinkedIn" width={48} height={48} />
               </a>
-              <a href="https://www.github.com/michaelnguyen26" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.github.com/michael-c-nguyen" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub" width={40} height={40} style={{ marginLeft: '1rem' }}/>
               </a>
               <a href="https://leetcode.com/u/mycallwin/" target="_blank" rel="noopener noreferrer">
