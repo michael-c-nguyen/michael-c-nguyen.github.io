@@ -10,6 +10,7 @@ export default function Me(){
       delay: 450,
       duration: 2000,
       mirror: true,
+      once: true
     });
   }, []); 
 
